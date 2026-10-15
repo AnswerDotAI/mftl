@@ -1,0 +1,8 @@
+title: Math for the Layman
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: book

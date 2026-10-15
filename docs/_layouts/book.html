@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+  <meta name="description" content="An archived copy of Kenneth E. Iverson's Math for the Layman.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">{{ site.title | escape }}</a> by Kenneth E. Iverson
+    <aside aria-label="Archive notice">
+      Archived copy restored from Trinity University's website.
+      <a href="https://web.archive.org/web/20170711100604/http://www.cs.trinity.edu/About/The_Courses/cs301/math-for-the-layman/">View the July 11, 2017 archive</a>.
+    </aside>
+  </header>
+  <main>
+    <h1 id="{{ page.anchor }}">{{ page.title | escape }}</h1>
+    {{ content }}
+  </main>
+  <nav aria-label="Book navigation">
+    {% if page.previous %}<a href="{{ page.previous }}">Previous</a>{% endif %}
+    <a href="index.html">Contents</a>
+    {% if page.next %}<a href="{{ page.next }}">Next</a>{% endif %}
+  </nav>
+</body>
+</html>
