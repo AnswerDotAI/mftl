@@ -36,7 +36,7 @@ Just as the operator `d.1` can be applied to a function `f` to obtain its deriva
 
 Experiment with the operators `derv` and `anti` on functions such as `^` and `1&o.` and `2&o.` and `6&o.`
 
-Compare the derivatives of the functions `1 2 3 4 5&p.` and `7 2 3 4 5&p. `, and explain their agreement.
+Compare the derivatives of the functions `1 2 3 4 5&p.` and `7 2 3 4 5&p.`, and explain their agreement.
 
 <span id="18b"></span>
 

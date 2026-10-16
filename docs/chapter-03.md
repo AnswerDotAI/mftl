@@ -79,9 +79,9 @@ The expression `d,:e` produces a two-rowed table from the lists `d` and `e`, and
 
 **Exercises**
 
-` PLOT x;(fs x),:fc x)`
+`PLOT x;(fs x),:fc x)`
 
-` PLOT x;(fs x),:fc x-3r2)`
+`PLOT x;(fs x),:fc x-3r2)`
 
 <span id="3b"></span>
 
@@ -145,7 +145,7 @@ Tables of functions that apply pairwise to their arguments can, however, provide
 0.6 0.2 0.12 0.063 0.02 _0.02 _0.063 _0.12 _0.2 _0.6
 ```
 
-We will further illustrate the pairwise operator on a function for the Fibonacci numbers, using a definition discussed under “generating functions” in \[2\]:
+We will further illustrate the pairwise operator on a function for the Fibonacci numbers, using a definition discussed under “generating functions” in [\[2\]](references.html#ref-2):
 
 ```
    fib=: (0 1 with p. % 1 _1 _1 with p.)t.
@@ -204,7 +204,7 @@ Pairwise relations such as `dif pw f x` are easily seen in a graph of `f`, but r
 
 Experiment with pairwise differences of other power functions, and of polynomials.
 
-Experiment with the function `p2=: 2 with ^ ` and the use of the pair-wise quotients `%/ pw` and `%~/ pw` on it.
+Experiment with the function `p2=: 2 with ^` and the use of the pair-wise quotients `%/ pw` and `%~/ pw` on it.
 
 <span id="3d"></span>
 

@@ -13,7 +13,7 @@ next: "chapter-13.html"
 
 Although we have discussed the importance of relations and analysis (proofs) in math, our exclusive use of numeric arguments has probably given the impression that math is exclusively about numbers. To redress the balance, we will now treat some relations concerning English words, beginning with sorting and anagrams.
 
-The letters in a word can be sorted into alphabetical order by using the function ` sort=: /:~` (which applies equally to numeric arguments). For example:
+The letters in a word can be sorted into alphabetical order by using the function `sort=: /:~` (which applies equally to numeric arguments). For example:
 
 ```
    sort=: /:~

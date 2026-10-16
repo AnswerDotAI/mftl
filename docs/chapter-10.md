@@ -66,7 +66,7 @@ The formal rules are stated in the J Dictionary as follows:
 >
 > A primitive or primary may be denoted by a single graphic (such as `+` for plus) or by a graphic modified by one or more following inflections (a period or colon), as in `+.` and `+:` for *or* and *nor*. A primary may also be an inflected name, as in `e.` and `o.` for membership and pi times. A primary cannot be assigned a referent.
 
-It would clearly be confusing if it were possible to assign the name `+` to multiplication, as in `+=: * `. <span id="10c"></span>
+It would clearly be confusing if it were possible to assign the name `+` to multiplication, as in `+=: *`. <span id="10c"></span>
 
 ## [10C. Parsing](#10-language-and-grammar) [S10C.](supplement.html#s10c)
 
@@ -138,7 +138,7 @@ This section is a discussion of mathematical notation from the vantage point of 
 
 It includes a discussion of the learnability of mathematical notation as compared with other specialized notations and with native languages, as well as the importance of such learnability.
 
-**SOME HISTORICAL VIEWS ON NOTATION** Mathematicians have often noted the power and importance of notation. In Part IV of his two-volume *A History of Mathematical Notations* \[3\], Florian Cajori offers the following examples:
+**SOME HISTORICAL VIEWS ON NOTATION** Mathematicians have often noted the power and importance of notation. In Part IV of his two-volume *A History of Mathematical Notations* [\[3\]](references.html#ref-3), Florian Cajori offers the following examples:
 
 > By relieving the brain of all unnecesary work, a good notation sets it free to concentrate on more advanced problems, and in effect increases the mental power of the race... By the aid of symbolism we can make transitions in reasonings almost mechanically by the eye... **A. N. Whitehead**
 >
@@ -162,7 +162,7 @@ In Sections 740 ff, Cajori laments the lack of standardization of mathematical n
 
 **§748** In the light of the teaching of history it is clear that new forces must be brought into action in order to safeguard the future against the play of blind chance. ... We believe that this new agency will be organization and co-operation. To be sure, the experience of the past in this direction is not altogether reassuring.
 
-However, in *William Oughtred: A Great Seventeenth-Century Teacher of Mathematics* \[4\], Cajori touches on a quite different agency that bears upon the development and teaching of mathematics -- the mathematical instrument. On page 88 we have:
+However, in *William Oughtred: A Great Seventeenth-Century Teacher of Mathematics* [\[4\]](references.html#ref-4), Cajori touches on a quite different agency that bears upon the development and teaching of mathematics -- the mathematical instrument. On page 88 we have:
 
 > In that preface William Forster quotes the reply of Oughtred to the question of how he (Oughtred) had for so many years concealed his invention of the slide rule from himself (Forster) whom he had taught so many other things. The reply was:
 >
@@ -174,7 +174,7 @@ On page 93 Cajori continues with:
 
 Writing in the early 1900’s, Cajori could not have foreseen the advent of that universal mathematical instrument, the modern computer, nor its spawning of the development and study of the notations of programming languages.
 
-**PROGRAMMING LANGUAGES** Early computers provided a small set of operations such as addition and multiplication, and were controlled by programs specifying sequences of these operations. For example, on the Harvard Mark IV \[5\], the program:
+**PROGRAMMING LANGUAGES** Early computers provided a small set of operations such as addition and multiplication, and were controlled by programs specifying sequences of these operations. For example, on the Harvard Mark IV [\[5\]](references.html#ref-5), the program:
 
 ```
       00 0080 10
@@ -184,7 +184,7 @@ Writing in the early 1900’s, Cajori could not have foreseen the advent of that
 
 *loaded* the number contained in *register* 80 into the *accumulator*, added register 81 to it, and *stored* the resulting sum in register 82.
 
-Programs were later developed to translate from languages more congenial to mathematicians into equivalent machine language programs for subsequent execution. For example, in BASIC, a language largely derived from FORTRAN (Formula Translator) \[6\], one might write:
+Programs were later developed to translate from languages more congenial to mathematicians into equivalent machine language programs for subsequent execution. For example, in BASIC, a language largely derived from FORTRAN (Formula Translator) [\[6\]](references.html#ref-6), one might write:
 
 ```
       Let a=3
@@ -194,7 +194,7 @@ Programs were later developed to translate from languages more congenial to math
 
 Although a few symbols from programming languages (such as FORTRAN’s \* for multiplication) have been widely adopted in math, the mathematical notation used in exposition has been largely unaffected. On the other hand, many mathematicians have been forced to learn programming languages, or to work with programmers who translate their mathematical expressions.
 
-Moreover, many have moved to Computer Science, unwittingly following the advice of Newton, as expressed in the following excerpt from page 95 of Cajori \[4\]:
+Moreover, many have moved to Computer Science, unwittingly following the advice of Newton, as expressed in the following excerpt from page 95 of Cajori [\[4\]](references.html#ref-4):
 
 > “I doubt not but that there shall be in convenient time, brought to light many precepts which may tend to ye perfecting of Navigation, and the help and safety of such whose Vocations doe inforce them to commit their lives and estates in the vast Ocean to the providence of God.” Thus farr that very good and judicious man Mr. Oughtred. I will add, that if instead of sending the Observations of Seamen to able Mathematicians at Land, the Land would send able Mathematicians to Sea, it would signify much more to the improvemt of Navigation and safety of Mens lives and estates on that element.
 
@@ -202,7 +202,7 @@ The need to make translation manageable has led to the development of languages 
 
 The proliferation of programming languages shows no more uniformity than mathematics. Nevertheless, programming languages do bring a different perspective. Not only do they provide precisely defined grammars, but they address a much wider range of applications than do any one of the notations treated by Cajori. Moreover, they sometimes adopt notions from advanced mathematics and apply them fruitfully at elementary levels.
 
-For example, the essential notion of Heaviside’s operators \[7\] (introduced in the treatment of differential equations) is the application of an entity (called an operator) which, applied to a function, produces a related function; a notion more familiar in the form f ' for the derivative of f. In APL \[8\], an operator (denoted by /) is used to provide reduction over a vector argument. The sum over a vector is obtained as follows:
+For example, the essential notion of Heaviside’s operators [\[7\]](references.html#ref-7) (introduced in the treatment of differential equations) is the application of an entity (called an operator) which, applied to a function, produces a related function; a notion more familiar in the form f ' for the derivative of f. In APL [\[8\]](references.html#ref-8), an operator (denoted by /) is used to provide reduction over a vector argument. The sum over a vector is obtained as follows:
 
 ```
    v<-2 7 1 8 2 8
@@ -219,7 +219,7 @@ The operator applies to any function, such as `*` (times), `>.` (max), or `<.` (
 
 Because of their application to a broad range of topics, their strict grammar, and their strict interpretation, programming languages can provide new insights into mathematical notation. We begin with the matter of symbols.
 
-**ECONOMY OF SYMBOLS** Far from introducing further symbols in the manner of Oughtred’s list (of some 150) shown in §181 of Cajori \[3\], programming languages are largely confined to a standard alphabet (ASCII) whose special characters are limited to the following familiar list:
+**ECONOMY OF SYMBOLS** Far from introducing further symbols in the manner of Oughtred’s list (of some 150) shown in §181 of Cajori [\[3\]](references.html#ref-3), programming languages are largely confined to a standard alphabet (ASCII) whose special characters are limited to the following familiar list:
 
 ```
     = < > _  + * - %  ^ $ ~ |  . : , ;  
@@ -228,7 +228,7 @@ Because of their application to a broad range of topics, their strict grammar, a
 
 This economy is achieved in part by adopting from mathematics the use of *reserved* words such as sin, cos, e, and log -- reserved from use as names for variables. Further economies are implicit in notions that have been used in mathematics but not systematically exploited. We will illustrate them by their use in J, a language derived from APL.
 
-**TRAINS** Some writers, such as March and Wolf in their *Calculus* \[10\], denote the function that is the sum of functions `f` and `g` by `f+g`. This notion can be exploited more generally, including constructs such as `f+g*h` for `f` added to the product of `g` and `h`. For example, using `%` for divide, and `#` for number of elements:
+**TRAINS** Some writers, such as March and Wolf in their *Calculus* [\[10\]](references.html#ref-10), denote the function that is the sum of functions `f` and `g` by `f+g`. This notion can be exploited more generally, including constructs such as `f+g*h` for `f` added to the product of `g` and `h`. For example, using `%` for divide, and `#` for number of elements:
 
 ```
    mean=:  +/ % #    NB. Arithmetic mean or average
@@ -248,7 +248,7 @@ Non-mathematical functions can be used in a train. For example, the function `;`
 +---------+-+-----------+-----------+
 ```
 
-**INFLECTION** A symbol formed by appending a dot or colon to a given function symbol will be said to be inflected, and such inflection is used to assign related symbols to related functions, providing names that therefore have some mnemonic value. For example, in his *Laws of Thought* \[9\], George Boole used `1` and `0` to denote true and false, and used the symbols for *times* and *plus* to denote the logical functions *and* and *or*.
+**INFLECTION** A symbol formed by appending a dot or colon to a given function symbol will be said to be inflected, and such inflection is used to assign related symbols to related functions, providing names that therefore have some mnemonic value. For example, in his *Laws of Thought* [\[9\]](references.html#ref-9), George Boole used `1` and `0` to denote true and false, and used the symbols for *times* and *plus* to denote the logical functions *and* and *or*.
 
 The analogy between *times* and *and* was helpful, and the conflict with the normal use of the symbols was of no concern within the confines of logic. In a wider context it is a concern, and J uses `*`. for *and* and `+`. for *or*. Similarly, `=` is used as a truth-function (like \< and \>), whereas =: is used as a copula (to assign a referent to a name), and \<. is used for lesser-of (that is, minimum). Thus:
 
@@ -275,7 +275,7 @@ _3 _5
 2.32193 1.60944
 ```
 
-**BONDS** In their *Combinatory Logic* \[11\], Curry and Feys developed a set of combinators, which we will treat as operators in the sense of Heaviside. One of these bonds a function of two arguments (such as `^`) to one of its arguments (such as `3`) to produce a function of one argument (the cube), an operation that has come to be called *Currying* in honour of its author. For example:
+**BONDS** In their *Combinatory Logic* [\[11\]](references.html#ref-11), Curry and Feys developed a set of combinators, which we will treat as operators in the sense of Heaviside. One of these bonds a function of two arguments (such as `^`) to one of its arguments (such as `3`) to produce a function of one argument (the cube), an operation that has come to be called *Currying* in honour of its author. For example:
 
 ```
    cube=:  ^ with 3
@@ -300,13 +300,13 @@ However, such a system *can* be used as a basis for the discussion of mathematic
 
 Discussion here will focus on such matters, and may suggest remedies. Discussion will also center on a single programming language (J), for the following reasons:
 
-\* As indicated in my A Personal View of APL \[12\], it was designed “as a simple, precise, executable notation for the teaching of a wide range of subjects”.
+\* As indicated in my A Personal View of APL [\[12\]](references.html#ref-12), it was designed “as a simple, precise, executable notation for the teaching of a wide range of subjects”.
 
 \* It has received some use in mathematical exposition.
 
 \* Its simple grammar is defined by a ten-by-four table in terms of six parts of speech.
 
-\* It uses vectors, matrices, and higher-dimensional arrays, based on the unifying concept of *rank* or *order* in Tensor Calculus \[13\].
+\* It uses vectors, matrices, and higher-dimensional arrays, based on the unifying concept of *rank* or *order* in Tensor Calculus [\[13\]](references.html#ref-13).
 
 \* In addition to the bond operator already discussed, it embraces some fifteen or more operators (such as dual, Taylor, and Hypergeometric) of interest in mathematics.
 
@@ -392,7 +392,7 @@ The expression `1-2-3-4-5` may be interpreted differently according to how it is
 
 The math result is the first element less the sum of the rest (i.e., `1-(2+3+4+5)`), and the J result is the alternating sum `(1+3+5)-(2+4)`.
 
-Since `f/v` inserts the function `f` between elements of `v`, the J expression `-/v` gives the alternating sum, a commonly-needed result that is expressed in math as the sum over (Greek sigma) `(-1)`<sup>`i`</sup>` v`. Similarly, the alternating product is expressed as `%/v`.
+Since `f/v` inserts the function `f` between elements of `v`, the J expression `-/v` gives the alternating sum, a commonly-needed result that is expressed in math as the sum over (Greek sigma) <code>(-1)<sup>i</sup> v</code>. Similarly, the alternating product is expressed as `%/v`.
 
 Heirarchy introduces ambiguities, particularly for synonyms and anonyms, which may or may not be accorded the same positions: are a/bc and a/b\*c equivalent?
 
@@ -409,9 +409,9 @@ Notations such as `3j4` (a complex number) and `1r2` (a rational) and `1r2p1` co
 1.73205j1
 ```
 
-**NEUTRAL OR IDENTITY ELEMENT** In Section 2.6 of *Concrete Mathematics* \[2\], Graham, Knuth and Patashnik state that “... a product of no factors is conventionally taken to be 1 (just as a sum of no terms is conventionally 0).”
+**NEUTRAL OR IDENTITY ELEMENT** In Section 2.6 of *Concrete Mathematics* [\[2\]](references.html#ref-2), Graham, Knuth and Patashnik state that “... a product of no factors is conventionally taken to be 1 (just as a sum of no terms is conventionally 0).”
 
-These choices are not mere conventions, and may be based more firmly on the *neutral* or *identity element* of a function, that is, a value `n` (when it exists) such that `n f x` yields `x` for any argument `x`. For example, `0` is the neutral of `+`, and `1` is the neutral of `* `.
+These choices are not mere conventions, and may be based more firmly on the *neutral* or *identity element* of a function, that is, a value `n` (when it exists) such that `n f x` yields `x` for any argument `x`. For example, `0` is the neutral of `+`, and `1` is the neutral of `*`.
 
 Using `k{.v` and `k}.v` to take and drop the first `k` elements of a vector `v`, we may write identities concerning sums and products over partitions of a vector:
 
@@ -430,13 +430,13 @@ Using `k{.v` and `k}.v` to take and drop the first `k` elements of a vector `v`,
 
 The indicated identities hold as well for the case `k=: 0` (for which `k{.v` is an empty vector), but only because the results of `+/i.0` and `*/i.0` are defined to be the neutrals of `+` and `*`. The neutral of minimum (`<./i.0`) is infinity, in effect defining it.
 
-**EMPTY CASES IN DEFINITION** In a definition of the form x(x-1)...(x-m+1) (As in Eq 2.43 of Concrete Mathematics \[2\] together with the note: m factors for m not equal to 0), the notation does not show explicitly what happens in the case of m=0.
+**EMPTY CASES IN DEFINITION** In a definition of the form x(x-1)...(x-m+1) (As in Eq 2.43 of Concrete Mathematics [\[2\]](references.html#ref-2) together with the note: m factors for m not equal to 0), the notation does not show explicitly what happens in the case of m=0.
 
 In vector notation, this definition (of the falling factorial function) becomes `*/x-i.m`, correctly including the case of the empty vector that occurs when `m` is zero. Moreover, `*/x+s*i.m` covers a host of cases; in particular, the values `_1` and `0` and `1` for `s` give the falling factorial, the ordinary power function, and the rising factorial. Non-integer values of `s` are equally useful in the finite calculus.
 
 Because the factors in the expression change in steps like the stope in a mine, these functions are collectively called *stopes*, and the fit operator `!.` provides them in expressions of the form `^!.s`.
 
-Furthermore, `p.!.s` provides the corresponding polynomial functions (in which the power function `^` used in the ordinary polynomial is replaced by the stope function `^!.s`). Compare the use of `^!.s` with the notations discussed in the introductory Note on Notation in \[2\].
+Furthermore, `p.!.s` provides the corresponding polynomial functions (in which the power function `^` used in the ordinary polynomial is replaced by the stope function `^!.s`). Compare the use of `^!.s` with the notations discussed in the introductory Note on Notation in [\[2\]](references.html#ref-2).
 
 **DUALS** It is a familiar observation that almost every stated task t is preceded by some preparation p, and followed by restoration (the inverse of p). This is sometimes expressed as performing “t under p”, as in “surgery under anesthetic”.
 
@@ -489,7 +489,7 @@ Two matters warrant further comment:
 
 With the computer and programming languages, mathematics has newly-acquired tools, and its notation should be reviewed in the light of them. The computer may, in effect, be used as a patient, precise, and knowledgeable “native speaker” of mathematical notation.
 
-In *The Language Instinct* \[14\], Pinker has treated the phenomenal learnability of natural languages as an inborn instinct in children, and in *The Symbolic Species* \[15\], Deacon has presented the co-evolution of language and the human brain as an explanation of this miracle of an inborn facility.
+In *The Language Instinct* [\[14\]](references.html#ref-14), Pinker has treated the phenomenal learnability of natural languages as an inborn instinct in children, and in *The Symbolic Species* [\[15\]](references.html#ref-15), Deacon has presented the co-evolution of language and the human brain as an explanation of this miracle of an inborn facility.
 
 In Deacon’s view, language has developed under evolutionary pressure to have, at least for elementary purposes, a uniform structure that is easily learned, particularly by infants. For example, the pattern in the sentences:
 
@@ -598,7 +598,7 @@ Observe the results and attempt to identify and name the functions used; but do 
 _3 _2 _1 0 1 2 3
 ```
 
-**Exp 5** Evaluate the familiar sum over (denoted by capital Greek sigma) `c`<sub>`i`</sub>`x`<sup>`i`</sup> at `x=0`, assuming that (as is often stated) zero to the power zero is undefined.
+**Exp 5** Evaluate the familiar sum over (denoted by capital Greek sigma) <code>c<sub>i</sub>x<sup>i</sup></code> at `x=0`, assuming that (as is often stated) zero to the power zero is undefined.
 
 **Exp 6** Use the results of the following expressions (and similar experiments) to state in English (and in conventional math notation) the relations among the tables generated:
 
@@ -632,7 +632,7 @@ Tracing may be switched off by entering `9 trace 0` .
 
 The parsing table from Section C illuminates the annotations provided by the trace.
 
-**Exp 11** For further simple explorations use Exercises from Chapter 1 of Iverson \[16\].
+**Exp 11** For further simple explorations use Exercises from Chapter 1 of Iverson [\[16\]](references.html#ref-16).
 
 **SUMMARY** In this section we have attempted to:
 

@@ -5,13 +5,13 @@ previous: "index.html"
 next: "chapter-01.html"
 ---
 
-In 1936, Lancelot Hogben published his still-popular *Mathematics for the Million* \[1\], stating his objective as follows:
+In 1936, Lancelot Hogben published his still-popular *Mathematics for the Million* [\[1\]](references.html#ref-1), stating his objective as follows:
 
 > The view which we shall explore is that mathematics is the language of size, shape and order and that it is an essential part of the equipment of an intelligent citizen to understand this language. If the rules of mathematics are the rules of grammar, there is no stupidity involved when we fail to see that a mathematical truth is obvious. The rules of ordinary grammar are not obvious. They have to be learned. They are not eternal truths. They are conveniences without whose aid truths about the sorts of things in the world cannot be communicated from one person to another.
 
 Our objective is similar, but we now have new tools: the development of computer programming has provided languages with grammars that are simpler and more tractable than that of conventional mathematical notation. Moreover, the general availability of the computer makes possible convenient and accurate experimentation with mathematical ideas.
 
-For example, the exclusive use of decimal notation in beginning mathematics entails the perplexing use of approximations such as `0.333333` and ` 0.857143` for the fractions one-third and six-sevenths, intermixed with exact values such as ` 0.046875` for the drill-bit-size three sixty-fourths. The present treatment also uses *rational* arithmetic, with exact representations such as `1r3` and `6r7` and `3r64`, leading to the following computer production of an addition table for fractions:
+For example, the exclusive use of decimal notation in beginning mathematics entails the perplexing use of approximations such as `0.333333` and `0.857143` for the fractions one-third and six-sevenths, intermixed with exact values such as `0.046875` for the drill-bit-size three sixty-fourths. The present treatment also uses *rational* arithmetic, with exact representations such as `1r3` and `6r7` and `3r64`, leading to the following computer production of an addition table for fractions:
 
 ```
    + table 1r1 1r2 1r3 1r4 1r5 1r6 1r7 1r8

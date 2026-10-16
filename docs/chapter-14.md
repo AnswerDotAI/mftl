@@ -58,7 +58,7 @@ Make function tables of the form `f table i:4` for both commutative and non-comm
 
 ## [14C. Associativity](#14-properties-of-functions) [S14C.](supplement.html#s14c)
 
-The expressions `3-(4-5)` and `(3-4)-5` apply the same function to the same arguments, but yield different results because the parentheses associate them differently; subtracting `5` from `4` and then subtracting the result from `3` to yield `4` in the first case, and subtracting `4` from `3` and then subtracting `5` from the result to yield ` _6` in the last.
+The expressions `3-(4-5)` and `(3-4)-5` apply the same function to the same arguments, but yield different results because the parentheses associate them differently; subtracting `5` from `4` and then subtracting the result from `3` to yield `4` in the first case, and subtracting `4` from `3` and then subtracting `5` from the result to yield `_6` in the last.
 
 A function that yields the same result for any association imposed by parentheses is said to be associative. For example, `3+(4+5)` and `(3+4)+5` both yield `12`.
 
