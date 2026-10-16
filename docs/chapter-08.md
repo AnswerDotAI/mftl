@@ -73,6 +73,6 @@ Because of "friction" of some sort, vibrations commonly decay, usually at an app
 
 **Exercises**
 
-Plot the decaying oscillation `sin * 6 with decay `.
+Plot the decaying oscillation `sin * 6 with decay`.
 
 Plot sine and cosine functions with rates of decay other than `6`, and plot them together with their non-decaying counterparts.

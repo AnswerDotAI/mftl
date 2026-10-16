@@ -33,7 +33,7 @@ However, the use of a foreign (that is, unfamiliar) language also offers advanta
 
 We will discuss just two texts, in addition to resources available on the computer.
 
-The first text (Gullberg, *Mathematics: From the Birth of Numbers* \[20\]) is serious, entertaining, and extensive, and provides a wealth of interesting historical detail. As stated in a foreword by Peter Hilton (an emeritus professor of mathematics):
+The first text (Gullberg, *Mathematics: From the Birth of Numbers* [\[20\]](references.html#ref-20)) is serious, entertaining, and extensive, and provides a wealth of interesting historical detail. As stated in a foreword by Peter Hilton (an emeritus professor of mathematics):
 
 > The unstated premise of this book - a premise that virtually all mathematicians would agree to - is that mathematics, like music, is worth doing for its own sake. The author is, by profession, a medical man, but he has a love for mathemtics and wants others to share his enthusiasm.
 >
@@ -45,11 +45,11 @@ The first text (Gullberg, *Mathematics: From the Birth of Numbers* \[20\]) is se
 >
 > To those intelligent people, it must seem absurd to liken mathematics to music as an art to be savored and enjoyed even in one's leisure time. Yet that is how it should appear and could appear if it were playing its proper role in our (otherwise) civilized society. Just as an appreciation of music is a hallmark of the educated person, so should be an appreciation of mathematics. The author of this book is a splendid example of an educated person bearing this hallmark.
 
-The second (Graham, Knuth and Patashnik, *Concrete Mathematics* \[2\]) is presented as "A foundation for Computer Science". As stated in the preface:
+The second (Graham, Knuth and Patashnik, *Concrete Mathematics* [\[2\]](references.html#ref-2)) is presented as "A foundation for Computer Science". As stated in the preface:
 
 > The course title "Concrete Mathematics" was originally intended as an antidote to "Abstract Mathematics", since concrete classical results were rapidly being swept out of the modern mathematical curriculum by a new wave of abstract ideas popularly called "The New Math." Abstract mathematics is a beautiful subject ... But its adherents had become deluded that the rest of mathematics was inferior and no longer worthy of attention.
 
-This text is recommended not only because of its clarity and coverage, but also because of my *Concrete Math Companion* \[21\], which may prove helpful in the matter of notation. It provides an extensive commentary on the Graham text, expressed in the executable notation used here. <span id="20b"></span>
+This text is recommended not only because of its clarity and coverage, but also because of my *Concrete Math Companion* [\[21\]](references.html#ref-21), which may prove helpful in the matter of notation. It provides an extensive commentary on the Graham text, expressed in the executable notation used here. <span id="20b"></span>
 
 ## [20B. Mathematics: from the Birth of Numbers](#20-further-topics) [S20B.](supplement.html#s20b)
 
@@ -265,7 +265,7 @@ The treatment in our Chapter 1 is based on Peano's original formulation (which d
 
 ## [20C. Concrete Mathematics](#20-further-topics) [S20C.](supplement.html#s20c)
 
-The text *Concrete Mathematics* \[2\] will be referred to as GKP, and will be discussed together with commentary on it (expressed in J) from *Concrete Math Companion* \[21\], to be referred to as CMC.
+The text *Concrete Mathematics* [\[2\]](references.html#ref-2) will be referred to as GKP, and will be discussed together with commentary on it (expressed in J) from *Concrete Math Companion* [\[21\]](references.html#ref-21), to be referred to as CMC.
 
 **GENERATING FUNCTIONS and TAYLOR SERIES** In Section 7.2 GKP states:
 
@@ -303,7 +303,7 @@ In Section 7B, CMC discusses this as follows:
 
 In Section 2A, CMC discusses this as follows:
 
-> We will therefore treat `a` as a function, and the list of indices as a second function, typically `i.` or the function `Ei=. i.@>: `. For example
+> We will therefore treat `a` as a function, and the list of indices as a second function, typically `i.` or the function `Ei=. i.@>:`. For example
 >
 > ```
 >    Ei=. i.@>:

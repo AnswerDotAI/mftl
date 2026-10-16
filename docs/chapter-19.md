@@ -192,4 +192,4 @@ Define the following odd and even operators:
 
 and experiment with their use on the function `f=: 0 1 2 3 4 5 with p.` using expressions such as `f E` and `f E i:4` and `(f O+f E) i:4`
 
-Experiment with the odd and even parts of other polynomials, as well as with the functions `^` and `sin=: 1 with o.` and `cos=: 2 with o.` and `cosh=: 6 with o. `.
+Experiment with the odd and even parts of other polynomials, as well as with the functions `^` and `sin=: 1 with o.` and `cos=: 2 with o.` and `cosh=: 6 with o.`.

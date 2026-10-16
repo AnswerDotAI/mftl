@@ -48,7 +48,7 @@ As remarked in Section 3B, the slopes of the segments of a graph show the averag
 
 Considered as a sample of points on a continuous graph of the function (using an infinite number of points), these sloping lines are *secants* (cutting lines) to the continuous curve, and the slope at a point is the *tangent* (touching line) to the curve, which may be approximated by a secant with a small interval.
 
-The expression `((f x+r)-(f x))%r `gives the slope of the graph of `f` between arguments `x` and `x+r` as the ratio of the rise `(f x+r)-(f x)` to the run `r`. For example:
+The expression `((f x+r)-(f x))%r` gives the slope of the graph of `f` between arguments `x` and `x+r` as the ratio of the rise `(f x+r)-(f x)` to the run `r`. For example:
 
 ```
    x=: 2

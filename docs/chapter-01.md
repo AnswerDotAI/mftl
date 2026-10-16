@@ -325,7 +325,7 @@ Make the table `* table 2 3 4 5 6 6 7 8 9 10` and make a list of the counting nu
 
 ## [1H. Power and Exponent (^)](#1-numbers) [S1H.](supplement.html#s1h)
 
-Just as repeated application of addition is equivalent to another important function (multplication, or `*`), so repeated multiplication is equivalent to *power*, or `^ `. Thus, `3 ^ 4` is equivalent to `3 * 3 * 3 * 3`. The right argument (in this case `4`) is often called the *exponent*, and the expression `3 ^ 4` is read as “three power four” or “three to the power four”. For example:
+Just as repeated application of addition is equivalent to another important function (multplication, or `*`), so repeated multiplication is equivalent to *power*, or `^`. Thus, `3 ^ 4` is equivalent to `3 * 3 * 3 * 3`. The right argument (in this case `4`) is often called the *exponent*, and the expression `3 ^ 4` is read as “three power four” or “three to the power four”. For example:
 
 ```
    3 ^ 4

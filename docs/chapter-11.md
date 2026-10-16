@@ -23,7 +23,7 @@ next: "chapter-12.html"
 
 Although proofs are an important (and many might say *the essential*) part of mathematics, we will spend little time on them in this book.
 
-In introducing his book *Proofs and Refutations: The Logic of Mathematical Discovery* \[17\], Imre Lakatos makes the following point:
+In introducing his book *Proofs and Refutations: The Logic of Mathematical Discovery* [\[17\]](references.html#ref-17), Imre Lakatos makes the following point:
 
 > Its modest aim is to elaborate the point that informal, quasi-empirical, mathematics does not grow through a monotonous increase of the number of indubitably established theorems but through the incessant improvement of *guesses* \[Italics added\] by speculation and criticism, by the logic of proofs and refutations.
 >
@@ -53,9 +53,9 @@ We cite two further comments on the effects of excessive formalism in the teachi
 >
 > By keeping his mind on the principal points he gains in depth, although he may lose in details. The loss is not serious, however, since any reader equipped with the elementary tools of algebra and calculus can easily interpolate the missing details.
 >
-> It is a well-known experience that the only truly enjoyable and profitable way of studying mathematics is the method of “filling in details” by one’s own efforts. **Lanczos\[18\]**
+> It is a well-known experience that the only truly enjoyable and profitable way of studying mathematics is the method of “filling in details” by one’s own efforts. **Lanczos[\[18\]](references.html#ref-18)**
 
-However, it is important to remember that in addition to the mathematics that is important to the intelligent layman, there is another mathematics, as expressed by G.H. Hardy in his A Mathematician’s Apology \[19\]:
+However, it is important to remember that in addition to the mathematics that is important to the intelligent layman, there is another mathematics, as expressed by G.H. Hardy in his A Mathematician’s Apology [\[19\]](references.html#ref-19):
 
 > There are then two mathematics. There is the real mathematics of the real mathematicians, and there is what I will call ‘trivial’ mathematics, for want of a better word. The trivial mathematics may be justified by arguments which would appeal to Hogben, or other writers of his school, but there is no such defence for the real mathematics, which must be justified as an art if it can be justified at all. There is nothing in the least paradoxical or unusual in this view, which is that held commonly by mathematicians.
 

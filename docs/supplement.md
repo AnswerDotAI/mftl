@@ -83,7 +83,7 @@ Write various expressions employing the functions used in the preceding examples
 
 ## [S1C. Iteration (Repetition)](chapter-01.html#1c)
 
-Write the result of the expression `next for list list `, and compare your result with that produced by entering it on the computer. <span id="s1d"></span> <span id="s1d"></span>
+Write the result of the expression `next for list list`, and compare your result with that produced by entering it on the computer. <span id="s1d"></span> <span id="s1d"></span>
 
 ## [S1D. Inverse](chapter-01.html#1d)
 
@@ -270,7 +270,7 @@ The idea of multiplication can be introduced at an elementary level by pictures 
 
 Discussion of the notation used here (such as `$`) may be found in Sections 2E and 2F.
 
-In his imaginative and persuasive *Vision in Elementary Mathematics* \[22\], W.W. Sawyer uses similar (hand-drawn) pictures to introduce elementary concepts in arithmetic and algebra, clarifying the ideas by "translating" from pictures to notation and back.
+In his imaginative and persuasive *Vision in Elementary Mathematics* [\[22\]](references.html#ref-22), W.W. Sawyer uses similar (hand-drawn) pictures to introduce elementary concepts in arithmetic and algebra, clarifying the ideas by "translating" from pictures to notation and back.
 
 Sawyer's pictures do not even require the somewhat abstract notion of the numeral `1` used above, but uses dots:
 
@@ -301,7 +301,7 @@ Moreover, he draws a tied bag (rather similar to &) to denote an unknown quantit
 &&...
 ```
 
-translates to `2`*`x`*`+3`.
+translates to <code>2<i>x</i>+3</code>.
 
 Addition is shown as:
 
@@ -310,7 +310,7 @@ Addition is shown as:
 &&...&&...
 ```
 
-which is denoted by `(2`*`x`*`+3)+(2`*`x`*`+3)` and is (pictorially) equivalent to that shown above, or to `&&&&......` which, in turn, translates to `4`*`x`*`+6`. <span id="s1h"></span>
+which is denoted by <code>(2<i>x</i>+3)+(2<i>x</i>+3)</code> and is (pictorially) equivalent to that shown above, or to `&&&&......` which, in turn, translates to <code>4<i>x</i>+6</code>. <span id="s1h"></span>
 
 ## [S1H. Power and Exponent](chapter-01.html#1h)
 
@@ -372,7 +372,7 @@ _5 _4 _3 _2 _1 0 1 2 3 4 5
 
 Comment on the patterns in the following extension of the power table to negative arguments. In particular, note the value of `0^0` (which may have surprised you in the power table in Section 1H).
 
-For further justification of the choice of `1` for the value of the "indeterminate" expression `0^0`, see page 785 of Gullberg \[20\].
+For further justification of the choice of `1` for the value of the "indeterminate" expression `0^0`, see page 785 of Gullberg [\[20\]](references.html#ref-20).
 
 ```
    ^table c
@@ -425,7 +425,7 @@ Finally press the Escape key (Esc) to remove the Help display. <span id="s2c"></
 
 ## [S2C. Displays](chapter-02.html#2c)
 
-Sawyer \[22\] emphasizes the use of trees and tables for insight, and introduces an interesting non-numeric table as follows:
+Sawyer [\[22\]](references.html#ref-22) emphasizes the use of trees and tables for insight, and introduces an interesting non-numeric table as follows:
 
 > In the Japanese Hiragana alphabet, each character represents a sound such as *ka, ru, si, or o*. There are 10 possible beginnings - the consonants k, s, t, n, m, y, r, w, and 'blank'; ... The ending is always one one of the five sounds a, e, i, o, u. How many characters are there in this alphabet? We could show this as a tree with 10 branches and 5 twigs on each ... This problem could equally well be solved by the rectangle ...
 
@@ -624,7 +624,7 @@ Experiment with their joint use, employing the *shape* function `$` to examine t
 
 ## [S3B. Local behaviour and area](chapter-03.html#3b)
 
-Use the Vocabulary to examine the definition of the *circle* function `o.` used in Section 3 B. In particular, experiment with the monadic case in expressions such as `o.1` and `o.2` and `o.1r2 `.
+Use the Vocabulary to examine the definition of the *circle* function `o.` used in Section 3 B. In particular, experiment with the monadic case in expressions such as `o.1` and `o.2` and `o.1r2`.
 
 Examine a plot of the sine function (`sin=:1 with o.`) to determine the approximate area under one of its arches. Then define `cos=:2 with o.` and use `plot` to plot each of `sin` and `cos` against the argument, and against one another.
 
@@ -665,11 +665,11 @@ _4 _3 _2 _1 0 1 2 3 4
 48 27 12 3 0 3 12 27 48
 ```
 
-If `e` is the diagonal sum(s) of the multiplication table `c */ d`, then the function `e with p.` is equivalent to the product `g=: c with p. * d with p. `. Test this assertion for various values of the coefficients `c` and `d`.
+If `e` is the diagonal sum(s) of the multiplication table `c */ d`, then the function `e with p.` is equivalent to the product `g=: c with p. * d with p.`. Test this assertion for various values of the coefficients `c` and `d`.
 
 The expression `1 1 with p. x` yields the result `1+x`, and `(1 1 with p. * 1 1 with p.) x` yields `(1+x)^2`. Determine (by hand and by computer) the coefficients of polynomials equivalent to further powers of `1+x`. Compare your results with the table of binomial coefficients `!table i.8`.
 
-As shown in Section 6B, the list `d` obtained by multiplying a list of coefficients `c` by its indices `i.#c` and then deleting the leading element gives the polynomial `d with p.` that is the *derivative* or *rate of change* of the function `c with p. `. Thus:
+As shown in Section 6B, the list `d` obtained by multiplying a list of coefficients `c` by its indices `i.#c` and then deleting the leading element gives the polynomial `d with p.` that is the *derivative* or *rate of change* of the function `c with p.`. Thus:
 
 ```
    c=:1 2 1
@@ -804,7 +804,7 @@ Plot the sine and cosine functions together, using the argument `y=:i:3j100`. <s
 
 ## [S8B. Harmonics](chapter-08.html#8b)
 
-For a discussion of Harmonic Analysis see Chapter 31 of Gullberg \[20\]. <span id="s8c"></span>
+For a discussion of Harmonic Analysis see Chapter 31 of Gullberg [\[20\]](references.html#ref-20). <span id="s8c"></span>
 
 ## [S8C. Decay](chapter-08.html#8c)
 
@@ -858,7 +858,7 @@ Define the function `g` as follows:
 
 Use the function `tighten` of Section 9C with the initial bracket `ab=: _1 1` to get approximations to one of the roots of `g`.
 
-Then use other initial brackets to approximate the other two roots, and apply `g` to the results to confirm that they are indeed (near) roots. Compare your roots with the result of `p. c `.
+Then use other initial brackets to approximate the other two roots, and apply `g` to the results to confirm that they are indeed (near) roots. Compare your roots with the result of `p. c`.
 
 Experiment with other polynomial functions. Note that a polynomial will have one less root than the number of elements in its coefficient, but that some of them will be *complex* in the sense defined in Chapter 19.
 
@@ -870,7 +870,7 @@ Apply Newton's method to obtain the roots of various polynomials. <span id="s9e"
 
 ## [S9E. Roots of Polynomials](chapter-09.html#9e)
 
-Pages 87-88 of Gullberg \[20\] give a brief history of complex numbers. Gullberg uses the conventional notation *i* for the *imaginary* square root of negative one, and *a+bi* for the *complex* number obtained by adding the real number *a* to the product of the real number *b* with the imaginary *i*.
+Pages 87-88 of Gullberg [\[20\]](references.html#ref-20) give a brief history of complex numbers. Gullberg uses the conventional notation *i* for the *imaginary* square root of negative one, and *a+bi* for the *complex* number obtained by adding the real number *a* to the product of the real number *b* with the imaginary *i*.
 
 We will use the *function* `j.` which multiplies its single argument by the square root of negative one, and which forms a complex number from two arguments. For example:
 
@@ -986,7 +986,7 @@ Define Boolean functions to determine various properties of numbers. For example
 
 ## [S13B. Or, and, and not](chapter-13.html#13b)
 
-When restricted to the arguments zero and one, multiplication is equivalent to the *and* function, and Boole used the symbol for multiplication to represent it. The analogy between *or* and addition is less compelling, but Boole used `+` for *or*. In a broader domain it is necessary to distinguish between the arithmetic and logical functions, and we therefore use ` + *` for the arithmetic functions, and `+. *.` for the logical.
+When restricted to the arguments zero and one, multiplication is equivalent to the *and* function, and Boole used the symbol for multiplication to represent it. The analogy between *or* and addition is less compelling, but Boole used `+` for *or*. In a broader domain it is necessary to distinguish between the arithmetic and logical functions, and we therefore use `+ *` for the arithmetic functions, and `+. *.` for the logical.
 
 Consult the Vocabulary for the significance of other arithmetic functions used as Booleans. Also note that `p <: q` tests whether `p` *implies* `q`. <span id="s13c"></span>
 
